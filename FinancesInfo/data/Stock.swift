@@ -7,12 +7,12 @@ struct Stocke: Codable {
 
 // MARK: - Chart
 struct Chart: Codable {
-    let result: [Result]
+    let result: [StockResult]
     let error: JSONNull?
 }
 
 // MARK: - Result
-struct Result: Codable {
+struct StockResult: Codable {
     let meta: Meta
     let timestamp: [Int]
     let indicators: Indicators

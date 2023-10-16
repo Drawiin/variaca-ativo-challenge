@@ -17,6 +17,7 @@
 		3321CFB32ADC4E0B00BC440E /* FinancesInfoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3321CFB22ADC4E0B00BC440E /* FinancesInfoUITestsLaunchTests.swift */; };
 		3321CFC42ADC501F00BC440E /* ItemInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3321CFC32ADC501F00BC440E /* ItemInfo.swift */; };
 		3321CFC72ADC64A600BC440E /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3321CFC62ADC64A600BC440E /* Stock.swift */; };
+		33579E242ADD60B600A261AF /* StockRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33579E232ADD60B600A261AF /* StockRepository.swift */; };
 		AAE5B2B0D9302C269152DF2B /* Pods_FinancesInfoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93CF2E92282FDEAC85EC8474 /* Pods_FinancesInfoTests.framework */; };
 		AB7927DF2D64CE73E894F836 /* Pods_FinancesInfo_FinancesInfoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F89996E6619577BEF74838C5 /* Pods_FinancesInfo_FinancesInfoUITests.framework */; };
 /* End PBXBuildFile section */
@@ -53,6 +54,7 @@
 		3321CFB22ADC4E0B00BC440E /* FinancesInfoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinancesInfoUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		3321CFC32ADC501F00BC440E /* ItemInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemInfo.swift; sourceTree = "<group>"; };
 		3321CFC62ADC64A600BC440E /* Stock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stock.swift; sourceTree = "<group>"; };
+		33579E232ADD60B600A261AF /* StockRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockRepository.swift; sourceTree = "<group>"; };
 		4F08A86107AA2428785B7BBC /* Pods-FinancesInfoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinancesInfoTests.release.xcconfig"; path = "Target Support Files/Pods-FinancesInfoTests/Pods-FinancesInfoTests.release.xcconfig"; sourceTree = "<group>"; };
 		5EACD1781D20837D6752168A /* Pods-FinancesInfo-FinancesInfoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FinancesInfo-FinancesInfoUITests.release.xcconfig"; path = "Target Support Files/Pods-FinancesInfo-FinancesInfoUITests/Pods-FinancesInfo-FinancesInfoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		93CF2E92282FDEAC85EC8474 /* Pods_FinancesInfoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FinancesInfoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -162,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				3321CFC62ADC64A600BC440E /* Stock.swift */,
+				33579E232ADD60B600A261AF /* StockRepository.swift */,
 			);
 			path = data;
 			sourceTree = "<group>";
@@ -417,6 +420,7 @@
 				3321CFC42ADC501F00BC440E /* ItemInfo.swift in Sources */,
 				3321CFC72ADC64A600BC440E /* Stock.swift in Sources */,
 				3321CF962ADC4E0A00BC440E /* FinancesInfoApp.swift in Sources */,
+				33579E242ADD60B600A261AF /* StockRepository.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
